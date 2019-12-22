@@ -8,12 +8,12 @@
 
 #import <XCTest/XCTest.h>
 #import <XCTest/XCTestCase+AsynchronousTesting.h>
-#import "ViewController.h"
+#import "TestViewController.h"
 #import "RequestManager.h"
 
 @interface DioUnitTest : XCTestCase
 
-@property(nonatomic, strong)ViewController *vc;
+@property(nonatomic, strong)TestViewController *vc;
 
 @end
 
@@ -24,7 +24,7 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
     [super setUp];
     // 实例化需要测试的类
-    self.vc = [[ViewController alloc] init];
+    self.vc = [[TestViewController alloc] init];
 }
 
 // 释放测试用例的资源代码，这个方法会每个测试用例执行后调用
