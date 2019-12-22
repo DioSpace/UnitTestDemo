@@ -36,8 +36,7 @@
 - (IBAction)loginAction:(UIButton *)sender {
     if ([self.nameTF.text isEqualToString:@"Dio"] && [self.passwordTF.text isEqualToString:@"123456"]) {
         TargetViewController *homeVC = [[TargetViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-//        [self.navigationController pushViewController:homeVC animated:YES];
-        [self presentViewController:homeVC animated:YES completion:nil];
+        [self.navigationController pushViewController:homeVC animated:YES];
     }else{
         NSLog(@"账号或密码不正确");
     }

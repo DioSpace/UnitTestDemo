@@ -72,8 +72,12 @@
     [passwordTF typeText:@"123456"];
     XCUIElement *loginButton = app.buttons[@"login"];
     [loginButton tap];
-    [[[[[[[[[[[[XCUIApplication alloc] init] childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1] childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element tap];
-    
+
+    //获取导航栏的返回按钮
+    XCUIElement *navcBar = app.navigationBars.allElementsBoundByIndex[0];
+    XCUIElementQuery *navcBarItems = [navcBar childrenMatchingType:XCUIElementTypeButton];
+    XCUIElement *backBtn = [navcBarItems elementBoundByIndex:0];
+    [backBtn tap];
     
     /* 下面的代码是 根据真实的点击事件自动生成的测试代码 */
     //    XCUIElementQuery *tabBarsQuery = app.tabBars;
