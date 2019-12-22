@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		596ED417D906CCEB1ED2E13C /* Pods_UnitTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406B2AE52936B111A80742E1 /* Pods_UnitTestDemo.framework */; };
 		93427E5E23AF7CFD00A139F9 /* LanguageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93427E5023AF7CFD00A139F9 /* LanguageViewController.xib */; };
 		93427E5F23AF7CFD00A139F9 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93427E5123AF7CFD00A139F9 /* OtherViewController.xib */; };
 		93427E6023AF7CFD00A139F9 /* SDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93427E5223AF7CFD00A139F9 /* SDKViewController.m */; };
@@ -50,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		19D30776EA51151C8308586E /* Pods-UnitTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestDemo.release.xcconfig"; path = "Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo.release.xcconfig"; sourceTree = "<group>"; };
-		406B2AE52936B111A80742E1 /* Pods_UnitTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4ABDA62E5A6BD031880227 /* Pods-UnitTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		93427E4E23AF7CFD00A139F9 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherViewController.h; path = ../main/OtherViewController.h; sourceTree = "<group>"; };
 		93427E4F23AF7CFD00A139F9 /* SDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDKViewController.h; path = ../main/SDKViewController.h; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				596ED417D906CCEB1ED2E13C /* Pods_UnitTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +191,6 @@
 				CED1E5D9236461D200496073 /* DioUITests */,
 				CED1E5522364019E00496073 /* Products */,
 				64698168CDA92C4D391832D9 /* Pods */,
-				FADA53F559D59051AD56EF75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,14 +247,6 @@
 				CED1E5DC236461D200496073 /* Info.plist */,
 			);
 			path = DioUITests;
-			sourceTree = "<group>";
-		};
-		FADA53F559D59051AD56EF75 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				406B2AE52936B111A80742E1 /* Pods_UnitTestDemo.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
