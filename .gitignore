@@ -1,2 +1,7 @@
+/Pods
 
 .DS_Store
+
+/UnitTestDemo.xcworkspace
+UnitTestDemo.xcodeproj/project.xcworkspace/xcuserdata/
+UnitTestDemo.xcodeproj/xcuserdata/
