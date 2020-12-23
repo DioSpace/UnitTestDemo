@@ -48,8 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19D30776EA51151C8308586E /* Pods-UnitTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestDemo.release.xcconfig"; path = "Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7B4ABDA62E5A6BD031880227 /* Pods-UnitTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		93427E4E23AF7CFD00A139F9 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherViewController.h; path = ../main/OtherViewController.h; sourceTree = "<group>"; };
 		93427E4F23AF7CFD00A139F9 /* SDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDKViewController.h; path = ../main/SDKViewController.h; sourceTree = "<group>"; };
 		93427E5023AF7CFD00A139F9 /* LanguageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LanguageViewController.xib; path = ../main/LanguageViewController.xib; sourceTree = "<group>"; };
@@ -115,15 +113,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64698168CDA92C4D391832D9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7B4ABDA62E5A6BD031880227 /* Pods-UnitTestDemo.debug.xcconfig */,
-				19D30776EA51151C8308586E /* Pods-UnitTestDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		93427E4D23AF7CCB00A139F9 /* main */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +179,6 @@
 				CED1E58E23640D2A00496073 /* DioUnitTest */,
 				CED1E5D9236461D200496073 /* DioUITests */,
 				CED1E5522364019E00496073 /* Products */,
-				64698168CDA92C4D391832D9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -598,7 +586,6 @@
 		};
 		CED1E581236401A200496073 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4ABDA62E5A6BD031880227 /* Pods-UnitTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -618,7 +605,6 @@
 		};
 		CED1E582236401A200496073 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19D30776EA51151C8308586E /* Pods-UnitTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
